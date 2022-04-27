@@ -1,0 +1,174 @@
+[2022-04-25 11:15:22] [WARNING] disnake.client: PyNaCl is not installed, voice will NOT be supported
+[2022-04-25 11:15:22] [INFO] obsbot.db: Connecting to database localhost:5432 as "newuser"...
+[2022-04-25 11:15:22] [INFO] obsbot.main: Loading public extension: admin
+[2022-04-25 11:15:22] [INFO] obsbot.main: Loading public extension: factoids
+[2022-04-25 11:15:22] [INFO] obsbot.main: Loading public extension: cron
+[2022-04-25 11:15:22] [INFO] obsbot.cogs.public.cron: cronjob cog not enabled.
+[2022-04-25 11:15:22] [INFO] obsbot.main: Loading public extension: log_analysis
+[2022-04-25 11:15:22] [INFO] obsbot.main: Loading public extension: webhooks
+[2022-04-25 11:15:22] [INFO] obsbot.cogs.public.webhooks: Enabling Webhooks cog...
+[2022-04-25 11:15:22] [INFO] disnake.client: logging in using static token
+[2022-04-25 11:15:22] [WARNING] obsbot.cogs.public.log_analysis: No hardware stats received from DB!
+[2022-04-25 11:15:22] [WARNING] obsbot.cogs.public.factoids: No factoids in database!
+[2022-04-25 11:15:22] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-25 11:15:22] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-vbqh",{"micros":78864,"calls":["discord-sessions-blue-prd-2-114",{"micros":77874,"calls":["start_session",{"micros":54715,"calls":["discord-api-59dffdb7f6-b42gb",{"micros":50394,"calls":["get_user",{"micros":22236},"add_authorized_ip",{"micros":1952},"get_guilds",{"micros":4482},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 96583843b9e61aa57399ef84eea2a5a9).
+[2022-04-25 11:15:24] [INFO] obsbot.cogs.public.webhooks: Start listening on localhost:8000
+[2022-04-25 11:15:24] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-25 11:15:24] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-25 11:16:43] [INFO] disnake.gateway: Websocket closed with 1006, attempting a reconnect.
+[2022-04-25 11:16:43] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 11:16:43] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 11:16:43] [INFO] disnake.gateway: Shard ID None has successfully RESUMED session 96583843b9e61aa57399ef84eea2a5a9 under trace ["gateway-prd-main-kcvz",{"micros":615,"calls":["discord-sessions-blue-prd-2-114",{"micros":23}]}].
+[2022-04-25 15:03:32] [INFO] disnake.gateway: Timed out receiving packet. Attempting a reconnect.
+[2022-04-25 15:03:32] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 15:03:32] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 15:03:32] [INFO] disnake.gateway: Shard ID None session has been invalidated.
+[2022-04-25 15:03:33] [INFO] disnake.client: Got a request to IDENTIFY the websocket.
+[2022-04-25 15:03:38] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-25 15:03:38] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-0l8x",{"micros":75131,"calls":["discord-sessions-blue-prd-2-119",{"micros":71412,"calls":["start_session",{"micros":49505,"calls":["discord-api-7d6887c55b-r8gfq",{"micros":44371,"calls":["get_user",{"micros":11268},"add_authorized_ip",{"micros":2522},"get_guilds",{"micros":9864},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 9011356bd978666a6d81cd9231a9edc7).
+[2022-04-25 15:03:40] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-25 15:03:40] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-25 15:06:34] [WARNING] obsbot.cogs.public.log_analysis: Could not find CPU in CPU DB (update required?): Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+[2022-04-25 15:06:34] [WARNING] obsbot.cogs.public.log_analysis: Could not find GPU in GPU DB (update required?): NVIDIA GeForce RTX 3070
+[2022-04-25 15:15:58] [WARNING] disnake.client: PyNaCl is not installed, voice will NOT be supported
+[2022-04-25 15:15:58] [INFO] obsbot.db: Connecting to database localhost:5432 as "newuser"...
+[2022-04-25 15:15:58] [INFO] obsbot.main: Loading public extension: admin
+[2022-04-25 15:15:58] [INFO] obsbot.main: Loading public extension: factoids
+[2022-04-25 15:15:58] [INFO] obsbot.main: Loading public extension: cron
+[2022-04-25 15:15:58] [INFO] obsbot.cogs.public.cron: cronjob cog not enabled.
+[2022-04-25 15:15:58] [INFO] obsbot.main: Loading public extension: log_analysis
+[2022-04-25 15:15:58] [INFO] obsbot.main: Loading public extension: webhooks
+[2022-04-25 15:15:58] [INFO] obsbot.cogs.public.webhooks: Enabling Webhooks cog...
+[2022-04-25 15:15:58] [INFO] obsbot.main: Loading public extension: steamworks
+[2022-04-25 15:15:58] [INFO] disnake.client: logging in using static token
+[2022-04-25 15:15:58] [WARNING] obsbot.cogs.public.log_analysis: No hardware stats received from DB!
+[2022-04-25 15:15:58] [WARNING] obsbot.cogs.public.factoids: No factoids in database!
+[2022-04-25 15:15:59] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-25 15:15:59] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-gz26",{"micros":81420,"calls":["discord-sessions-blue-prd-2-13",{"micros":80080,"calls":["start_session",{"micros":47601,"calls":["discord-api-7d6887c55b-clwfj",{"micros":42931,"calls":["get_user",{"micros":7418},"add_authorized_ip",{"micros":3986},"get_guilds",{"micros":7862},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: e5d7008ae37c594abc447a98d65273c2).
+[2022-04-25 15:16:01] [INFO] obsbot.cogs.public.webhooks: Start listening on localhost:8000
+[2022-04-25 15:16:01] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-25 15:16:01] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-25 15:37:45] [INFO] disnake.gateway: Timed out receiving packet. Attempting a reconnect.
+[2022-04-25 15:37:45] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 15:37:45] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 15:37:45] [INFO] disnake.gateway: Shard ID None session has been invalidated.
+[2022-04-25 15:37:45] [INFO] disnake.client: Got a request to IDENTIFY the websocket.
+[2022-04-25 15:37:51] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-25 15:37:51] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-d447",{"micros":93377,"calls":["discord-sessions-blue-prd-2-174",{"micros":90754,"calls":["start_session",{"micros":81010,"calls":["discord-api-6d64dc6684-bjxxx",{"micros":69734,"calls":["get_user",{"micros":18967},"add_authorized_ip",{"micros":2032},"get_guilds",{"micros":7273},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6832,"calls":[]}]}]}] (Session ID: 53909135e4291e72ba25c17a26d00364).
+[2022-04-25 15:37:53] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-25 15:37:53] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-25 16:25:04] [INFO] disnake.gateway: Websocket closed with 1006, attempting a reconnect.
+[2022-04-25 16:25:04] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 16:25:04] [ERROR] disnake.client: Attempting a reconnect in 1.18s
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/asyncio/base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/client.py", line 693, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/asyncio/tasks.py", line 483, in wait_for
+    return fut.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/gateway.py", line 428, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/http.py", line 2391, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/http.py", line 343, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [nodename nor servname provided, or not known]
+[2022-04-25 16:25:06] [ERROR] disnake.client: Attempting a reconnect in 3.19s
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/asyncio/base_events.py", line 817, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/client.py", line 693, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/asyncio/tasks.py", line 483, in wait_for
+    return fut.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/gateway.py", line 428, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/http.py", line 2391, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/disnake/http.py", line 343, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/aiohttp/connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [nodename nor servname provided, or not known]
+[2022-04-25 16:25:09] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 16:25:09] [INFO] disnake.gateway: Shard ID None session has been invalidated.
+[2022-04-25 16:25:09] [INFO] disnake.client: Got a request to IDENTIFY the websocket.
+[2022-04-25 16:25:14] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-25 16:25:14] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-5nk6",{"micros":58029,"calls":["discord-sessions-green-prd-2-20",{"micros":56745,"calls":["start_session",{"micros":42144,"calls":["discord-api-6969868fdc-mlrzs",{"micros":35776,"calls":["get_user",{"micros":8935},"add_authorized_ip",{"micros":2183},"get_guilds",{"micros":5908},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":9186,"calls":[]}]}]}] (Session ID: dba5112e1137c4805ce75273bc1a759b).
+[2022-04-25 16:25:16] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-25 16:25:16] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-25 17:00:37] [INFO] disnake.gateway: Timed out receiving packet. Attempting a reconnect.
+[2022-04-25 17:00:37] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 17:00:38] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 17:00:38] [INFO] disnake.gateway: Shard ID None session has been invalidated.
+[2022-04-25 17:00:38] [INFO] disnake.client: Got a request to IDENTIFY the websocket.
+[2022-04-25 17:00:43] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-25 17:00:43] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-wggp",{"micros":104104,"calls":["discord-sessions-green-prd-2-117",{"micros":98525,"calls":["start_session",{"micros":85942,"calls":["discord-api-6f755c9f68-qszp7",{"micros":79453,"calls":["get_user",{"micros":18342},"add_authorized_ip",{"micros":4070},"get_guilds",{"micros":12703},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2988,"calls":[]}]}]}] (Session ID: 0453c56d96e865479e1cf31eaa5c3433).
+[2022-04-25 17:00:45] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-25 17:00:45] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-25 17:28:03] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 17:28:04] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 17:28:04] [INFO] disnake.gateway: Shard ID None has successfully RESUMED session 0453c56d96e865479e1cf31eaa5c3433 under trace ["gateway-prd-main-td46",{"micros":585,"calls":["discord-sessions-green-prd-2-117",{"micros":23}]}].
+[2022-04-25 19:31:03] [INFO] disnake.gateway: Timed out receiving packet. Attempting a reconnect.
+[2022-04-25 19:31:03] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 19:31:04] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 19:31:04] [INFO] disnake.gateway: Shard ID None session has been invalidated.
+[2022-04-25 19:31:04] [INFO] disnake.client: Got a request to IDENTIFY the websocket.
+[2022-04-25 19:31:09] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-25 19:31:09] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-sxpl",{"micros":92581,"calls":["discord-sessions-green-prd-2-111",{"micros":91419,"calls":["start_session",{"micros":45113,"calls":["discord-api-78589bcd-rg4q5",{"micros":40159,"calls":["get_user",{"micros":9771},"add_authorized_ip",{"micros":2631},"get_guilds",{"micros":6519},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":32309,"calls":[]}]}]}] (Session ID: 1ef451a2449af0d33920db1265ee3305).
+[2022-04-25 19:31:11] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-25 19:31:11] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-25 19:51:40] [INFO] disnake.gateway: Timed out receiving packet. Attempting a reconnect.
+[2022-04-25 19:51:40] [INFO] disnake.client: Got a request to RESUME the websocket.
+[2022-04-25 19:51:41] [INFO] disnake.gateway: Shard ID None has sent the RESUME payload.
+[2022-04-25 19:51:41] [INFO] disnake.gateway: Shard ID None session has been invalidated.
+[2022-04-25 19:51:41] [INFO] disnake.client: Got a request to IDENTIFY the websocket.

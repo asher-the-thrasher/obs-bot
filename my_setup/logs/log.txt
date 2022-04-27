@@ -1,0 +1,43 @@
+[2022-04-27 16:16:06] [WARNING] disnake.client: PyNaCl is not installed, voice will NOT be supported
+[2022-04-27 16:16:06] [INFO] obsbot.db: Connecting to database localhost:5432 as "newuser"...
+[2022-04-27 16:16:06] [INFO] obsbot.main: Loading public extension: admin
+[2022-04-27 16:16:06] [INFO] obsbot.main: Loading public extension: factoids
+[2022-04-27 16:16:06] [INFO] obsbot.main: Loading public extension: cron
+[2022-04-27 16:16:06] [INFO] obsbot.cogs.public.cron: cronjob cog not enabled.
+[2022-04-27 16:16:06] [INFO] obsbot.main: Loading public extension: log_analysis
+[2022-04-27 16:16:06] [INFO] obsbot.main: Loading public extension: webhooks
+[2022-04-27 16:16:06] [INFO] obsbot.cogs.public.webhooks: Enabling Webhooks cog...
+[2022-04-27 16:16:06] [INFO] obsbot.main: Loading public extension: steamworks
+[2022-04-27 16:16:06] [INFO] disnake.client: logging in using static token
+[2022-04-27 16:16:06] [INFO] obsbot.cogs.public.log_analysis: Received 2 hardware stats entries from DB.
+[2022-04-27 16:16:06] [INFO] obsbot.cogs.public.factoids: Received 1 factoid entries from database.
+[2022-04-27 16:16:06] [INFO] obsbot.cogs.public.factoids: Adding slash command for "test"
+[2022-04-27 16:16:07] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-27 16:16:07] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-rk0h",{"micros":126077,"calls":["discord-sessions-green-prd-2-118",{"micros":122490,"calls":["start_session",{"micros":105750,"calls":["discord-api-58f68b7d47-l268j",{"micros":94395,"calls":["get_user",{"micros":21013},"add_authorized_ip",{"micros":14809},"get_guilds",{"micros":4050},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":5417,"calls":[]}]}]}] (Session ID: 1ed86c9c1a9178378bc4b5eb183c150f).
+[2022-04-27 16:16:09] [INFO] obsbot.cogs.public.webhooks: Start listening on localhost:8000
+[2022-04-27 16:16:09] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-27 16:16:09] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)
+[2022-04-27 16:16:46] [INFO] disnake.client: Cleaning up tasks.
+[2022-04-27 16:16:46] [INFO] disnake.client: Cleaning up after 1 tasks.
+[2022-04-27 16:16:46] [INFO] obsbot.main: Cleaning up on close()...
+[2022-04-27 16:16:46] [INFO] disnake.client: All tasks finished cancelling.
+[2022-04-27 16:16:46] [INFO] disnake.client: Closing the event loop.
+[2022-04-27 16:24:23] [WARNING] disnake.client: PyNaCl is not installed, voice will NOT be supported
+[2022-04-27 16:24:23] [INFO] obsbot.db: Connecting to database localhost:5432 as "newuser"...
+[2022-04-27 16:24:23] [INFO] obsbot.main: Loading public extension: admin
+[2022-04-27 16:24:23] [INFO] obsbot.main: Loading public extension: factoids
+[2022-04-27 16:24:23] [INFO] obsbot.main: Loading public extension: cron
+[2022-04-27 16:24:23] [INFO] obsbot.cogs.public.cron: cronjob cog not enabled.
+[2022-04-27 16:24:23] [INFO] obsbot.main: Loading public extension: log_analysis
+[2022-04-27 16:24:23] [INFO] obsbot.main: Loading public extension: webhooks
+[2022-04-27 16:24:23] [INFO] obsbot.cogs.public.webhooks: Enabling Webhooks cog...
+[2022-04-27 16:24:23] [INFO] obsbot.main: Loading public extension: steamworks
+[2022-04-27 16:24:23] [INFO] disnake.client: logging in using static token
+[2022-04-27 16:24:23] [INFO] obsbot.cogs.public.factoids: Received 1 factoid entries from database.
+[2022-04-27 16:24:23] [INFO] obsbot.cogs.public.log_analysis: Received 2 hardware stats entries from DB.
+[2022-04-27 16:24:23] [INFO] obsbot.cogs.public.factoids: Adding slash command for "test"
+[2022-04-27 16:24:23] [INFO] disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+[2022-04-27 16:24:24] [INFO] disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-jk75",{"micros":143469,"calls":["discord-sessions-green-prd-2-151",{"micros":141978,"calls":["start_session",{"micros":108426,"calls":["discord-api-58f68b7d47-7l8sk",{"micros":98526,"calls":["get_user",{"micros":15021},"add_authorized_ip",{"micros":12222},"get_guilds",{"micros":11441},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":17205,"calls":[]}]}]}] (Session ID: e86556528e165f1d781bcef618613dd4).
+[2022-04-27 16:24:26] [INFO] obsbot.cogs.public.webhooks: Start listening on localhost:8000
+[2022-04-27 16:24:26] [INFO] obsbot.main: OBS Bot ready!
+[2022-04-27 16:24:26] [INFO] obsbot.main: Name: reaction bot#2767 (ID: 857378204121432096)

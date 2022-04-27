@@ -1,0 +1,86 @@
+[bot]
+token = "ODU3Mzc4MjA0MTIxNDMyMDk2.YNOtrQ.hNi1JGxT0L6uYLTamJT35sGz6Q0"
+state_file = "../obsbot_state.json"
+main_guild = 849649811241173072
+owner = 691724738841804843
+admins = [
+
+]
+supporter_role = 965743487536480306
+contributor_role = 965743578838097960
+
+[db]
+host = "localhost"
+port = 5432
+user = "newuser"
+pass = "password"
+
+[webhooks]
+enabled = true
+port = 8000
+ci_channels = [965743875882909756, 965743935962116096]
+
+[webhooks.github]
+commits_channel = 965743875882909756
+brief_commits_channel = 965743935962116096
+wiki_channel = 965743992585195521
+db_table = "commit_messages"
+github_api_auth = "token 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"
+commit_truncation_limit = 2
+workflow_id = 123456
+steam_workflow_id = 123456
+artifact_service = "https://my.server.com/artifacts?id={}"
+
+[webhooks.github.emotes]
+passed = "github_success:12345678909876654321"
+failed = "github_failed:12345678909876654321"
+partial = "github_partial_failure:12345678909876654321"
+
+[cron]
+enabled = false
+interval = 300
+
+[cron.fider]
+default_last_id = 1337
+channel_id = 12345678909876654321
+
+[cron.twitter]
+account_id = 123456
+screen_name = "MyAccount"
+channel_id = 12345678909876654321
+default_last_id = 12345678909876654321
+
+[cron.twitter.credentials]
+consumer_key = "<key>"
+consumer_secret = "<secret>"
+access_token = "<key>"
+access_token_secret = "<secret>"
+
+[factoids]
+enabled = true
+db_table = "factoids"
+cooldown = 5.0
+slash_command_limit = 10
+
+[log_analyser]
+enabled = true
+hw_check_enabled = false
+db_table = "hardware_stats"
+channel_blacklist = []
+cooldown = 5.0
+
+[onlybans]
+enabled = false
+db_table = "filters"
+log_channel = 12345678909876654321
+
+[steamworks]
+enabled = false
+api_key = "<steam api key>"
+app_id = 1234567
+steam_channel = 12345678909876654321
+repo = "user/repo"
+
+[steamworks.branches]
+# staging -> live branch mapping
+staging = "public"
